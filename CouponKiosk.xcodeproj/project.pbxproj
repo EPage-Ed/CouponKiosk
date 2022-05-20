@@ -3,19 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82C413828385B0900F80C31 /* BRLMPrinterKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82C413728385B0900F80C31 /* BRLMPrinterKit.xcframework */; };
+		D82C413928385B0900F80C31 /* BRLMPrinterKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D82C413728385B0900F80C31 /* BRLMPrinterKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8B8227024666DB900CA6457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8226F24666DB900CA6457 /* AppDelegate.swift */; };
 		D8B8227224666DB900CA6457 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8227124666DB900CA6457 /* SceneDelegate.swift */; };
 		D8B8227424666DB900CA6457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8227324666DB900CA6457 /* ViewController.swift */; };
 		D8B8227724666DB900CA6457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B8227524666DB900CA6457 /* Main.storyboard */; };
 		D8B8227924666DBB00CA6457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B8227824666DBB00CA6457 /* Assets.xcassets */; };
 		D8B8227C24666DBB00CA6457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B8227A24666DBB00CA6457 /* LaunchScreen.storyboard */; };
+		D8B8228524666ECD00CA6457 /* kaching.wav in Resources */ = {isa = PBXBuildFile; fileRef = D8B8228324666ECD00CA6457 /* kaching.wav */; };
+		D8B8228624666ECD00CA6457 /* PrinterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8B8228424666ECD00CA6457 /* PrinterList.plist */; };
+		D8B82290246674E100CA6457 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8228F246674E100CA6457 /* SplashVC.swift */; };
+		D8B822922466936500CA6457 /* FetchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B822912466936500CA6457 /* FetchVC.swift */; };
+		D8B822942466992A00CA6457 /* reveal.wav in Resources */ = {isa = PBXBuildFile; fileRef = D8B822932466992A00CA6457 /* reveal.wav */; };
+		D8B822962466FAF900CA6457 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B822952466FAF900CA6457 /* SignInVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D82C413A28385B0900F80C31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D82C413928385B0900F80C31 /* BRLMPrinterKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D82C413728385B0900F80C31 /* BRLMPrinterKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BRLMPrinterKit.xcframework; sourceTree = "<group>"; };
 		D8B8226C24666DB900CA6457 /* CouponKiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponKiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B8226F24666DB900CA6457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B8227124666DB900CA6457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,13 @@
 		D8B8227824666DBB00CA6457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B8227B24666DBB00CA6457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B8227D24666DBB00CA6457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B8228324666ECD00CA6457 /* kaching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kaching.wav; sourceTree = "<group>"; };
+		D8B8228424666ECD00CA6457 /* PrinterList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrinterList.plist; sourceTree = "<group>"; };
+		D8B8228C24666F7600CA6457 /* CouponKiosk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CouponKiosk-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8B8228F246674E100CA6457 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		D8B822912466936500CA6457 /* FetchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchVC.swift; sourceTree = "<group>"; };
+		D8B822932466992A00CA6457 /* reveal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reveal.wav; sourceTree = "<group>"; };
+		D8B822952466FAF900CA6457 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82C413828385B0900F80C31 /* BRLMPrinterKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D82C413628385B0900F80C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82C413728385B0900F80C31 /* BRLMPrinterKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8B8226324666DB900CA6457 = {
 			isa = PBXGroup;
 			children = (
 				D8B8226E24666DB900CA6457 /* CouponKiosk */,
 				D8B8226D24666DB900CA6457 /* Products */,
+				D82C413628385B0900F80C31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +99,17 @@
 				D8B8226F24666DB900CA6457 /* AppDelegate.swift */,
 				D8B8227124666DB900CA6457 /* SceneDelegate.swift */,
 				D8B8227324666DB900CA6457 /* ViewController.swift */,
+				D8B8228F246674E100CA6457 /* SplashVC.swift */,
+				D8B822952466FAF900CA6457 /* SignInVC.swift */,
+				D8B822912466936500CA6457 /* FetchVC.swift */,
 				D8B8227524666DB900CA6457 /* Main.storyboard */,
 				D8B8227824666DBB00CA6457 /* Assets.xcassets */,
 				D8B8227A24666DBB00CA6457 /* LaunchScreen.storyboard */,
+				D8B822932466992A00CA6457 /* reveal.wav */,
+				D8B8228324666ECD00CA6457 /* kaching.wav */,
+				D8B8228424666ECD00CA6457 /* PrinterList.plist */,
 				D8B8227D24666DBB00CA6457 /* Info.plist */,
+				D8B8228C24666F7600CA6457 /* CouponKiosk-Bridging-Header.h */,
 			);
 			path = CouponKiosk;
 			sourceTree = "<group>";
@@ -77,6 +124,7 @@
 				D8B8226824666DB900CA6457 /* Sources */,
 				D8B8226924666DB900CA6457 /* Frameworks */,
 				D8B8226A24666DB900CA6457 /* Resources */,
+				D82C413A28385B0900F80C31 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +147,7 @@
 				TargetAttributes = {
 					D8B8226B24666DB900CA6457 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -125,7 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B8228524666ECD00CA6457 /* kaching.wav in Resources */,
+				D8B8228624666ECD00CA6457 /* PrinterList.plist in Resources */,
 				D8B8227C24666DBB00CA6457 /* LaunchScreen.storyboard in Resources */,
+				D8B822942466992A00CA6457 /* reveal.wav in Resources */,
 				D8B8227924666DBB00CA6457 /* Assets.xcassets in Resources */,
 				D8B8227724666DB900CA6457 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8B8227424666DB900CA6457 /* ViewController.swift in Sources */,
+				D8B822922466936500CA6457 /* FetchVC.swift in Sources */,
+				D8B822962466FAF900CA6457 /* SignInVC.swift in Sources */,
+				D8B82290246674E100CA6457 /* SplashVC.swift in Sources */,
 				D8B8227024666DB900CA6457 /* AppDelegate.swift in Sources */,
 				D8B8227224666DB900CA6457 /* SceneDelegate.swift in Sources */,
 			);
@@ -202,6 +257,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "i386 x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "armv7 arm64";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -284,15 +341,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BY2NMR4CA;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BRLMPrinterKit.xcframework/**";
 				INFOPLIST_FILE = CouponKiosk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.epage.CouponKiosk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.epage.CouponKioskBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CouponKiosk/CouponKiosk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +368,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BY2NMR4CA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BRLMPrinterKit.xcframework/**";
 				INFOPLIST_FILE = CouponKiosk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.epage.CouponKiosk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.epage.CouponKioskBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CouponKiosk/CouponKiosk-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
